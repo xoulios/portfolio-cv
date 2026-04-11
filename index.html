@@ -7,20 +7,55 @@
     <title>Xoulio Responsive Personal Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
 
+  <!-- Body Section -->
   <body>
     <header class="header">
       <a href="#" class="logo">Chouliaras Ioannis</a>
 
+      <div class="bx bx-menu" id="menu-icon"></div>
+
       <nav class="navbar">
-        <a href="#home">Home</a>
+        <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hello, I'm <span>Chouliaras Ioannis</span></h1>
+        <div class="text-animate">
+          <h3>Software Engineer</h3>
+        </div>
+        <p>
+          Undergraduate Information and Communication Systems Engineering
+          Student Fourth year Computer Science student, with a strong interest
+          in Web Development and a good grounding in backend technologies. I
+          have been developing web applications and REST APIs for over 2 years,
+          and I am always eager to learn new technologies and improve my skills.
+        </p>
+        <div class="btn-box">
+          <a href="#" class="btn">Contact Me</a>
+          <a href="#" class="btn">Download CV</a>
+        </div>
+      </div>
+
+      <div class="home-sci">
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+      </div>
+    </section>
 
     <script src="js/script.js"></script>
   </body>
