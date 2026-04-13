@@ -11,6 +11,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* ============================================
+   1. RESET & BASE
+   ============================================ */
 :root{
     --bg-color: #081b29;
     --second-bg-color: #112e42;
@@ -28,6 +31,9 @@ body{
     color: var(--text-color);
 }
 
+/* ============================================
+   2. HEADER & NAVBAR
+   ============================================ */
 .header {
     position: fixed;
     top: 0;
@@ -71,7 +77,9 @@ section{
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
-
+/* ============================================
+   3. HOME SECTION
+   ============================================ */
 .home{
     display: flex;
     align-items: center;
@@ -210,4 +218,50 @@ color: transparent;
 
 .home-sci a:hover::before{
     width: 100%;
+}
+
+/* ============================================
+   4. ABOUT SECTION
+   ============================================ */
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--second-bg-color);
+    padding-bottom: 6rem;
+}
+
+.heading{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+span{
+    color: var(--main-color);
+}
+
+.about-content{
+    text-align: center;
+}
+
+.about-content h3{
+    font-size: 2.5rem;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.btn-box.btns{
+display: inline-block;
+width: 15rem;
+}
+
+.btn-box.btns a::before{
+background: var(--second-bg-color);
 }
